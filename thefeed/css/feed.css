@@ -1,0 +1,277 @@
+/* Body: full paper background */
+body {
+  margin: 0;
+  min-height: 100vh;
+  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background-image: url("../img/paper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 20px;
+
+  padding-top: 20px;          
+  padding-bottom: 20px;
+}
+
+/* Top container for GIF */
+.top-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    margin-top: 10px;         /* small gap from top */
+}
+
+.top-container img {
+    max-width: 650px;
+    width: 80%;               /* responsive */
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Content container: navigation and feed content */
+.content-container {
+    width: 45%;
+    max-width: 1000px;
+    margin: 20px auto;          /* centered with spacing */
+    background-color: rgba(255, 255, 255, 0.85); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Back link */
+.back-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: #555;
+}
+
+.back-link:hover {
+    color: #ff66aa;
+}
+
+/* Paragraphs */
+.content-container p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+/* first container */
+.first-container {
+    width: 45%;             
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;      /* center text for now */
+}
+
+.first-container p {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* second container */
+.second-container {
+    width: 45%;             
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;      /* center text for now */
+}
+
+.second-container p {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* third container */
+.third-container {
+    width: 45%;             
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;      /* center text for now */
+}
+
+.third-container p {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* fourth container */
+.fourth-container {
+    width: 45%;             
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;      /* center text for now */
+}
+
+.fourth-container p {
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* fifth container */
+.fifth-container {
+    width: 45%;             
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;      /* center text for now */
+}
+
+.fifth-container p {
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+/* sixth container */
+.sixth-container {
+    width: 45%;             
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;      /* center text for now */
+}
+
+.sixth-container p {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* seventh container */
+.seventh-container {
+    width: 45%;             
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;      /* center text for now */
+}
+
+.seventh-container p {
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+
+
+/* eighth container */
+.eighth-container {
+    width: 45%;             
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;      /* center text for now */
+}
+
+.eighth-container p {
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+
+
+/* ninth container */
+.ninth-container {
+    width: 45%;             
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;      /* center text for now */
+}
+
+.ninth-container p {
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+
+
+/* tenth container */
+.tenth-container {
+    width: 45%;             
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;      /* center text for now */
+}
+
+.tenth-container p {
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* eleventh container */
+.eleventh-container {
+    width: 45%;             
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;      /* center text for now */
+}
+
+.eleventh-container p {
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* twelfth container */
+.twelfth-container {
+    width: 45%;             
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;      /* center text for now */
+}
+
+.twelfth-container p {
+    color: #333;
+    line-height: 1.6;
+}
+

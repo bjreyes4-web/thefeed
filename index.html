@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>THE FEED!</title>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      text-align: center;
+
+      background-image: url("img/paper.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .enter-gif {
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .enter-gif img {
+      margin-top: 20px;
+      max-width: 70%;
+      height: auto;
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .enter-gif:hover img {
+      transform: scale(1.05);
+      filter: drop-shadow(0 0 12px rgba(255, 182, 193, 0.8));
+    }
+
+    .enter-gif:active img {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+
+<body>
+
+  <a href="thefeed/feed.html" class="enter-gif" aria-label="Enter the site">
+    <img src="img/welcome.gif" alt="pink, sparkly 'welcome' gif, click to enter next site">
+  </a>
+
+</body>
+</html>
