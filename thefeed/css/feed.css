@@ -26,6 +26,38 @@ body {
 
 }
 
+/* container info for full page*/
+.page-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.left-column {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  height: fit-content;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.feed-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* SAME spacing as photo/video boxes */
+}
+
+
 /* gif container */
 .top-container {
     width: 100%;
@@ -71,213 +103,22 @@ body {
     margin-bottom: 15px;
 }
 
-
-/* first container */
-.first-container {
-    width: 45%;             
-    max-width: 700px;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    text-align: center;      /* center text for now */
-}
-
-.first-container p {
-    color: #333;
-    line-height: 1.6;
-}
-
-/* second container */
-.second-container {
-    width: 45%;             
-    max-width: 700px;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    text-align: center;      /* center text for now */
-}
-
-.second-container p {
-    color: #333;
-    line-height: 1.6;
-}
-
-/* third container */
-.third-container {
-    width: 45%;             
-    max-width: 700px;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    text-align: center;      /* center text for now */
-}
-
-.third-container p {
-    color: #333;
-    line-height: 1.6;
-}
-
-/* fourth container */
-.fourth-container {
-    width: 45%;             
-    max-width: 700px;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    text-align: center;      /* center text for now */
-}
-
-.fourth-container p {
-    color: #333;
-    line-height: 1.6;
-}
-
-
-/* fifth container */
-.fifth-container {
-    width: 45%;             
-    max-width: 700px;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    text-align: center;      /* center text for now */
-}
-
-.fifth-container p {
-    color: #333;
-    line-height: 1.6;
-}
-
-
-
-/* sixth container */
-.sixth-container {
-    width: 45%;             
-    max-width: 700px;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    text-align: center;      /* center text for now */
-}
-
-.sixth-container p {
-    color: #333;
-    line-height: 1.6;
-}
-
-/* seventh container */
-.seventh-container {
-    width: 45%;             
-    max-width: 700px;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    text-align: center;      /* center text for now */
-}
-
-.seventh-container p {
-    color: #333;
-    line-height: 1.6;
-}
-
-
-
-
-
-/* eighth container */
-.eighth-container {
-    width: 45%;             
-    max-width: 700px;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    text-align: center;      /* center text for now */
-}
-
-.eighth-container p {
-    color: #333;
-    line-height: 1.6;
-}
-
-
-
-
-
-/* ninth container */
-.ninth-container {
-    width: 45%;             
-    max-width: 700px;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    text-align: center;      /* center text for now */
-}
-
-.ninth-container p {
-    color: #333;
-    line-height: 1.6;
-}
-
-
-
-
-
-/* tenth container */
-.tenth-container {
-    width: 45%;             
-    max-width: 700px;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    text-align: center;      /* center text for now */
-}
-
-.tenth-container p {
-    color: #333;
-    line-height: 1.6;
-}
-
-
-/* eleventh container */
-.eleventh-container {
-    width: 45%;             
-    max-width: 700px;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    text-align: center;      /* center text for now */
-}
-
-.eleventh-container p {
-    color: #333;
-    line-height: 1.6;
-}
-
-
-/* twelfth container */
+.first-container,
+.second-container,
+.third-container,
+.fourth-container,
+.fifth-container,
+.sixth-container,
+.seventh-container,
+.eighth-container,
+.ninth-container,
+.tenth-container,
+.eleventh-container,
 .twelfth-container {
-    width: 45%;             
-    max-width: 700px;
-    background-color: rgba(255, 255, 255, 0.85);
+    max-width: 100%; 
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    text-align: center;      /* center text for now */
+    text-align: center;
 }
-
-.twelfth-container p {
-    color: #333;
-    line-height: 1.6;
-}
-
