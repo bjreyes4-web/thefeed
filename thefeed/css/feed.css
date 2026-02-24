@@ -18,7 +18,6 @@ body {
   padding-top: 20px;          
   padding-bottom: 20px;
 
-  font-family: "Bricolage Grotesque", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
@@ -62,7 +61,7 @@ body {
 }
 
 .back-link:hover {
-    color: #ff66aa;
+    color: s;
 }
 
 /* Paragraphs */
