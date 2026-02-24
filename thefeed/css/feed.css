@@ -1,9 +1,8 @@
-/* Body: full paper background */
+/* paper background */
 body {
   margin: 0;
   min-height: 100vh;
   
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,9 +17,17 @@ body {
 
   padding-top: 20px;          
   padding-bottom: 20px;
+
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
 }
 
-/* Top container for GIF */
+/* gif container */
 .top-container {
     width: 100%;
     display: flex;
