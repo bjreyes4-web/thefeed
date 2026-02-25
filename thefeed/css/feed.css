@@ -26,8 +26,8 @@ body {
 /* ----------------------- */
 .page-grid {
   display: grid;
-  grid-template-columns: 300px 700px;
-  gap: 130px;
+  grid-template-columns: 300px 1.3fr;
+  gap: 100px;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
